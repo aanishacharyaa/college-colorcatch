@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cDXXEK0TEee6S77dw3LIvQ" name="model">
+  <eAnnotations xmi:id="_cDXXEa0TEee6S77dw3LIvQ" source="genmymodel">
+    <details xmi:id="_cDXXEq0TEee6S77dw3LIvQ" key="uuid" value="_RX33AK0OEee6S77dw3LIvQ"/>
+    <details xmi:id="_cDXXE60TEee6S77dw3LIvQ" key="author" value="anish9978"/>
+  </eAnnotations>
+  <packageImport xmi:id="_cDXXFK0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXFa0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXFq0TEee6S77dw3LIvQ" key="uuid" value="_RX4eEK0OEee6S77dw3LIvQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Actor" xmi:id="_cDXXF60TEee6S77dw3LIvQ" name="Player">
+    <eAnnotations xmi:id="_cDXXGK0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXGa0TEee6S77dw3LIvQ" key="uuid" value="_QD7sIY88EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXGq0TEee6S77dw3LIvQ" name="Control">
+    <eAnnotations xmi:id="_cDXXG60TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXHK0TEee6S77dw3LIvQ" key="uuid" value="_4WWnEI88EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXHa0TEee6S77dw3LIvQ" name="Exit">
+    <eAnnotations xmi:id="_cDXXHq0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXH60TEee6S77dw3LIvQ" key="uuid" value="_8PJdkI88EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXIK0TEee6S77dw3LIvQ" name="Resume">
+    <eAnnotations xmi:id="_cDXXIa0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXIq0TEee6S77dw3LIvQ" key="uuid" value="_9UzeEI88EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXI60TEee6S77dw3LIvQ" name="Push">
+    <eAnnotations xmi:id="_cDXXJK0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXJa0TEee6S77dw3LIvQ" key="uuid" value="_AvZVoI89EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXJq0TEee6S77dw3LIvQ" name="Start Game">
+    <eAnnotations xmi:id="_cDXXJ60TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXKK0TEee6S77dw3LIvQ" key="uuid" value="_TbLp4I8-EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXKa0TEee6S77dw3LIvQ" name="Move">
+    <eAnnotations xmi:id="_cDXXKq0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXK60TEee6S77dw3LIvQ" key="uuid" value="_elrMYI8-EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXLK0TEee6S77dw3LIvQ" name="Win Game">
+    <eAnnotations xmi:id="_cDXXLa0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXLq0TEee6S77dw3LIvQ" key="uuid" value="_ivGf4I8-EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_cDXXL60TEee6S77dw3LIvQ" name="Restart Level">
+    <eAnnotations xmi:id="_cDXXMK0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXMa0TEee6S77dw3LIvQ" key="uuid" value="_kcM64I8-EDWqYtVyNHN60g"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXMq0TEee6S77dw3LIvQ" name="Player_Start Game" memberEnd="_cDXXNa0TEee6S77dw3LIvQ _cDXXOq0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXNa0TEee6S77dw3LIvQ _cDXXOq0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXM60TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXNK0TEee6S77dw3LIvQ" key="uuid" value="_Ox-YMY9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXNa0TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXMq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXNq0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXN60TEee6S77dw3LIvQ" key="uuid" value="_Ox9xII9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXOK0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXOa0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXOq0TEee6S77dw3LIvQ" name="player" type="_cDXXF60TEee6S77dw3LIvQ" association="_cDXXMq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXO60TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXPK0TEee6S77dw3LIvQ" key="uuid" value="_Ox-YMI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXPa0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXPq0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXP60TEee6S77dw3LIvQ" name="Start Game_Push" memberEnd="_cDXXQq0TEee6S77dw3LIvQ _cDXXR60TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXQq0TEee6S77dw3LIvQ _cDXXR60TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXQK0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXQa0TEee6S77dw3LIvQ" key="uuid" value="_PLYWso9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXQq0TEee6S77dw3LIvQ" name="push" type="_cDXXI60TEee6S77dw3LIvQ" association="_cDXXP60TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXQ60TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXRK0TEee6S77dw3LIvQ" key="uuid" value="_PLYWsI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXRa0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXRq0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXR60TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXP60TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXSK0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXSa0TEee6S77dw3LIvQ" key="uuid" value="_PLYWsY9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXSq0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXS60TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXTK0TEee6S77dw3LIvQ" name="Start Game_Resume" memberEnd="_cDXXT60TEee6S77dw3LIvQ _cDXXVK0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXT60TEee6S77dw3LIvQ _cDXXVK0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXTa0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXTq0TEee6S77dw3LIvQ" key="uuid" value="_QFl8MY9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXT60TEee6S77dw3LIvQ" name="resume" type="_cDXXIK0TEee6S77dw3LIvQ" association="_cDXXTK0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXUK0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXUa0TEee6S77dw3LIvQ" key="uuid" value="_QFlVII9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXUq0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXU60TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXVK0TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXTK0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXVa0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXVq0TEee6S77dw3LIvQ" key="uuid" value="_QFl8MI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXV60TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXWK0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXWa0TEee6S77dw3LIvQ" name="Start Game_Control" memberEnd="_cDXXXK0TEee6S77dw3LIvQ _cDXXYa0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXXK0TEee6S77dw3LIvQ _cDXXYa0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXWq0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXW60TEee6S77dw3LIvQ" key="uuid" value="_QTZuso9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXXK0TEee6S77dw3LIvQ" name="control" type="_cDXXGq0TEee6S77dw3LIvQ" association="_cDXXWa0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXXa0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXXq0TEee6S77dw3LIvQ" key="uuid" value="_QTZusI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXX60TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXYK0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXYa0TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXWa0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXYq0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXY60TEee6S77dw3LIvQ" key="uuid" value="_QTZusY9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXZK0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXZa0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXZq0TEee6S77dw3LIvQ" name="Start Game_Exit" memberEnd="_cDXXaa0TEee6S77dw3LIvQ _cDXXbq0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXaa0TEee6S77dw3LIvQ _cDXXbq0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXZ60TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXaK0TEee6S77dw3LIvQ" key="uuid" value="_Qighso9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXaa0TEee6S77dw3LIvQ" name="exit" type="_cDXXHa0TEee6S77dw3LIvQ" association="_cDXXZq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXaq0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXa60TEee6S77dw3LIvQ" key="uuid" value="_QighsI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXbK0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXba0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXbq0TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXZq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXb60TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXcK0TEee6S77dw3LIvQ" key="uuid" value="_QighsY9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXca0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXcq0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXc60TEee6S77dw3LIvQ" name="Start Game_Move" memberEnd="_cDXXdq0TEee6S77dw3LIvQ _cDXXe60TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXdq0TEee6S77dw3LIvQ _cDXXe60TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXdK0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXda0TEee6S77dw3LIvQ" key="uuid" value="_Q5F1so9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXdq0TEee6S77dw3LIvQ" name="move" type="_cDXXKa0TEee6S77dw3LIvQ" association="_cDXXc60TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXd60TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXeK0TEee6S77dw3LIvQ" key="uuid" value="_Q5F1sI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXea0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXeq0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXe60TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXc60TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXfK0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXfa0TEee6S77dw3LIvQ" key="uuid" value="_Q5F1sY9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXfq0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXf60TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXgK0TEee6S77dw3LIvQ" name="Start Game_Win Game" memberEnd="_cDXXg60TEee6S77dw3LIvQ _cDXXiK0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXg60TEee6S77dw3LIvQ _cDXXiK0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXga0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXgq0TEee6S77dw3LIvQ" key="uuid" value="_RfnqMY9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXg60TEee6S77dw3LIvQ" name="win Game" type="_cDXXLK0TEee6S77dw3LIvQ" association="_cDXXgK0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXhK0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXha0TEee6S77dw3LIvQ" key="uuid" value="_RfnDII9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXhq0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXh60TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXiK0TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXgK0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXia0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXiq0TEee6S77dw3LIvQ" key="uuid" value="_RfnqMI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXi60TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXjK0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXja0TEee6S77dw3LIvQ" name="Start Game_Restart Level" memberEnd="_cDXXkK0TEee6S77dw3LIvQ _cDXXla0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXkK0TEee6S77dw3LIvQ _cDXXla0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXjq0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXj60TEee6S77dw3LIvQ" key="uuid" value="_T9s2MY9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXkK0TEee6S77dw3LIvQ" name="restart Level" type="_cDXXL60TEee6S77dw3LIvQ" association="_cDXXja0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXka0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXkq0TEee6S77dw3LIvQ" key="uuid" value="_T9sPII9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXk60TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXlK0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXla0TEee6S77dw3LIvQ" name="start Game" type="_cDXXJq0TEee6S77dw3LIvQ" association="_cDXXja0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXlq0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXl60TEee6S77dw3LIvQ" key="uuid" value="_T9s2MI9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXmK0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXma0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXmq0TEee6S77dw3LIvQ" name="Win Game_Control" memberEnd="_cDXXna0TEee6S77dw3LIvQ _cDXXoq0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXna0TEee6S77dw3LIvQ _cDXXoq0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXm60TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXnK0TEee6S77dw3LIvQ" key="uuid" value="_39xLIo9AEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXna0TEee6S77dw3LIvQ" name="control" type="_cDXXGq0TEee6S77dw3LIvQ" association="_cDXXmq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXnq0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXn60TEee6S77dw3LIvQ" key="uuid" value="_39xLII9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXoK0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXoa0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXoq0TEee6S77dw3LIvQ" name="win Game" type="_cDXXLK0TEee6S77dw3LIvQ" association="_cDXXmq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXo60TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXpK0TEee6S77dw3LIvQ" key="uuid" value="_39xLIY9AEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXpa0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXpq0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXp60TEee6S77dw3LIvQ" name="Control_Resume" memberEnd="_cDXXqq0TEee6S77dw3LIvQ _cDXXr60TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXqq0TEee6S77dw3LIvQ _cDXXr60TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXqK0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXqa0TEee6S77dw3LIvQ" key="uuid" value="_Ht-7ko9BEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXqq0TEee6S77dw3LIvQ" name="resume" type="_cDXXIK0TEee6S77dw3LIvQ" association="_cDXXp60TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXq60TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXrK0TEee6S77dw3LIvQ" key="uuid" value="_Ht-7kI9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXra0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXrq0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXr60TEee6S77dw3LIvQ" name="control" type="_cDXXGq0TEee6S77dw3LIvQ" association="_cDXXp60TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXsK0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXsa0TEee6S77dw3LIvQ" key="uuid" value="_Ht-7kY9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXsq0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXs60TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXtK0TEee6S77dw3LIvQ" name="Resume_Push" memberEnd="_cDXXt60TEee6S77dw3LIvQ _cDXXvK0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXt60TEee6S77dw3LIvQ _cDXXvK0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXta0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXtq0TEee6S77dw3LIvQ" key="uuid" value="_J792Eo9BEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXt60TEee6S77dw3LIvQ" name="push" type="_cDXXI60TEee6S77dw3LIvQ" association="_cDXXtK0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXuK0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXua0TEee6S77dw3LIvQ" key="uuid" value="_J792EI9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXuq0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXu60TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXvK0TEee6S77dw3LIvQ" name="resume" type="_cDXXIK0TEee6S77dw3LIvQ" association="_cDXXtK0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXva0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXvq0TEee6S77dw3LIvQ" key="uuid" value="_J792EY9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXv60TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXwK0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXwa0TEee6S77dw3LIvQ" name="Resume_Win Game" memberEnd="_cDXXxK0TEee6S77dw3LIvQ _cDXXya0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXXxK0TEee6S77dw3LIvQ _cDXXya0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXwq0TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXXw60TEee6S77dw3LIvQ" key="uuid" value="_Lv21ko9BEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXXxK0TEee6S77dw3LIvQ" name="win Game" type="_cDXXLK0TEee6S77dw3LIvQ" association="_cDXXwa0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXxa0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXxq0TEee6S77dw3LIvQ" key="uuid" value="_Lv21kI9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXx60TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXyK0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXXya0TEee6S77dw3LIvQ" name="resume" type="_cDXXIK0TEee6S77dw3LIvQ" association="_cDXXwa0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXXyq0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXXy60TEee6S77dw3LIvQ" key="uuid" value="_Lv21kY9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXXzK0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXXza0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_cDXXzq0TEee6S77dw3LIvQ" name="Resume_Restart Level" memberEnd="_cDXX0a0TEee6S77dw3LIvQ _cDXX1q0TEee6S77dw3LIvQ" navigableOwnedEnd="_cDXX0a0TEee6S77dw3LIvQ _cDXX1q0TEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_cDXXz60TEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_cDXX0K0TEee6S77dw3LIvQ" key="uuid" value="_My_tko9BEDWqYtVyNHN60g"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_cDXX0a0TEee6S77dw3LIvQ" name="restart Level" type="_cDXXL60TEee6S77dw3LIvQ" association="_cDXXzq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXX0q0TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXX060TEee6S77dw3LIvQ" key="uuid" value="_My_tkI9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXX1K0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXX1a0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cDXX1q0TEee6S77dw3LIvQ" name="resume" type="_cDXXIK0TEee6S77dw3LIvQ" association="_cDXXzq0TEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_cDXX160TEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_cDXX2K0TEee6S77dw3LIvQ" key="uuid" value="_My_tkY9BEDWqYtVyNHN60g"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_cDXX2a0TEee6S77dw3LIvQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDXX2q0TEee6S77dw3LIvQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

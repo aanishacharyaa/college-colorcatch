@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_aVNa4K0NEee6S77dw3LIvQ" name="model">
+  <eAnnotations xmi:id="_aVNa4a0NEee6S77dw3LIvQ" source="genmymodel">
+    <details xmi:id="_aVNa4q0NEee6S77dw3LIvQ" key="uuid" value="_C63K8Kz6Eee6S77dw3LIvQ"/>
+    <details xmi:id="_aVNa460NEee6S77dw3LIvQ" key="author" value="anish9978"/>
+  </eAnnotations>
+  <packageImport xmi:id="_aVNa5K0NEee6S77dw3LIvQ">
+    <eAnnotations xmi:id="_aVNa5a0NEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_aVNa5q0NEee6S77dw3LIvQ" key="uuid" value="_C63K8az6Eee6S77dw3LIvQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Activity" xmi:id="_aVNa560NEee6S77dw3LIvQ" name="Activity">
+    <eAnnotations xmi:id="_aVNa6K0NEee6S77dw3LIvQ" source="genmymodel">
+      <details xmi:id="_aVNa6a0NEee6S77dw3LIvQ" key="uuid" value="_C63K8qz6Eee6S77dw3LIvQ"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_aVNa6q0NEee6S77dw3LIvQ" body="If died">
+      <eAnnotations xmi:id="_aVNa660NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNa7K0NEee6S77dw3LIvQ" key="uuid" value="_1YC2II8sEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedComment>
+    <ownedComment xmi:id="_aVNa7a0NEee6S77dw3LIvQ" body="If FinalLevel">
+      <eAnnotations xmi:id="_aVNa7q0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNa760NEee6S77dw3LIvQ" key="uuid" value="_7W4ScI80EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedComment>
+    <ownedComment xmi:id="_aVNa8K0NEee6S77dw3LIvQ" body="Yes">
+      <eAnnotations xmi:id="_aVNa8a0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNa8q0NEee6S77dw3LIvQ" key="uuid" value="_VHd7oI81EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedComment>
+    <ownedComment xmi:id="_aVNa860NEee6S77dw3LIvQ" body="No">
+      <eAnnotations xmi:id="_aVNa9K0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNa9a0NEee6S77dw3LIvQ" key="uuid" value="_jAkZcI81EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedComment>
+    <ownedComment xmi:id="_aVNa9q0NEee6S77dw3LIvQ" body="Yes">
+      <eAnnotations xmi:id="_aVNa960NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNa-K0NEee6S77dw3LIvQ" key="uuid" value="_cahnoI83EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedComment>
+    <ownedComment xmi:id="_aVNa-a0NEee6S77dw3LIvQ" body="No">
+      <eAnnotations xmi:id="_aVNa-q0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNa-60NEee6S77dw3LIvQ" key="uuid" value="_fTYEEI83EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedComment>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNa_K0NEee6S77dw3LIvQ" name="ControlFlow" target="_aVNbjK0NEee6S77dw3LIvQ" source="_aVNbbq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNa_a0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNa_q0NEee6S77dw3LIvQ" key="uuid" value="_xwUhgI8sEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNa_60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbAK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbAa0NEee6S77dw3LIvQ" key="uuid" value="_xwT6cI8sEDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbAq0NEee6S77dw3LIvQ" name="ControlFlow2" target="_aVNbkq0NEee6S77dw3LIvQ" source="_aVNbjK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbA60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbBK0NEee6S77dw3LIvQ" key="uuid" value="_pfO_oI8tEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbBa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbBq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbB60NEee6S77dw3LIvQ" key="uuid" value="_pfOYkI8tEDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbCK0NEee6S77dw3LIvQ" name="ControlFlow3" target="_aVNbj60NEee6S77dw3LIvQ" source="_aVNbjK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbCa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbCq0NEee6S77dw3LIvQ" key="uuid" value="_rvzUEI8tEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbC60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbDK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbDa0NEee6S77dw3LIvQ" key="uuid" value="_rvyF8I8tEDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbDq0NEee6S77dw3LIvQ" name="ControlFlow4" target="_aVNbla0NEee6S77dw3LIvQ" source="_aVNbkq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbD60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbEK0NEee6S77dw3LIvQ" key="uuid" value="_6CU6UI80EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbEa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbEq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbE60NEee6S77dw3LIvQ" key="uuid" value="_6CUTQI80EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbFK0NEee6S77dw3LIvQ" name="ControlFlow5" target="_aVNbbq0NEee6S77dw3LIvQ" source="_aVNbla0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbFa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbFq0NEee6S77dw3LIvQ" key="uuid" value="_MQt9YI81EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbF60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbGK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbGa0NEee6S77dw3LIvQ" key="uuid" value="_MQtWUI81EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbGq0NEee6S77dw3LIvQ" name="ControlFlow6" target="_aVNbia0NEee6S77dw3LIvQ" source="_aVNbla0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbG60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbHK0NEee6S77dw3LIvQ" key="uuid" value="_bkzLcY81EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbHa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbHq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbH60NEee6S77dw3LIvQ" key="uuid" value="_bkzLcI81EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbIK0NEee6S77dw3LIvQ" name="ControlFlow7" target="_aVNbia0NEee6S77dw3LIvQ" source="_aVNbg60NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbIa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbIq0NEee6S77dw3LIvQ" key="uuid" value="_s0d8cY81EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbI60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbJK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbJa0NEee6S77dw3LIvQ" key="uuid" value="_s0d8cI81EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbJq0NEee6S77dw3LIvQ" name="ControlFlow8" target="_aVNba60NEee6S77dw3LIvQ" source="_aVNbaK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbJ60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbKK0NEee6S77dw3LIvQ" key="uuid" value="_IpZb8I82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbKa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbKq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbK60NEee6S77dw3LIvQ" key="uuid" value="_IpY04I82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbLK0NEee6S77dw3LIvQ" name="ControlFlow9" target="_aVNbbq0NEee6S77dw3LIvQ" source="_aVNba60NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbLa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbLq0NEee6S77dw3LIvQ" key="uuid" value="_Kanh8I82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbL60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbMK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbMa0NEee6S77dw3LIvQ" key="uuid" value="_Kam64I82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbMq0NEee6S77dw3LIvQ" name="ControlFlow10" target="_aVNbca0NEee6S77dw3LIvQ" source="_aVNbbq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbM60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbNK0NEee6S77dw3LIvQ" key="uuid" value="_L6BfMI82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbNa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbNq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbN60NEee6S77dw3LIvQ" key="uuid" value="_L6A4II82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbOK0NEee6S77dw3LIvQ" name="ControlFlow11" target="_aVNbdK0NEee6S77dw3LIvQ" source="_aVNbca0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbOa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbOq0NEee6S77dw3LIvQ" key="uuid" value="_NDN74I82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbO60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbPK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbPa0NEee6S77dw3LIvQ" key="uuid" value="_NDNU0I82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbPq0NEee6S77dw3LIvQ" name="ControlFlow12" target="_aVNbd60NEee6S77dw3LIvQ" source="_aVNbca0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbP60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbQK0NEee6S77dw3LIvQ" key="uuid" value="_N35hIY82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbQa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbQq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbQ60NEee6S77dw3LIvQ" key="uuid" value="_N35hII82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbRK0NEee6S77dw3LIvQ" name="ControlFlow13" target="_aVNbeq0NEee6S77dw3LIvQ" source="_aVNbca0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbRa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbRq0NEee6S77dw3LIvQ" key="uuid" value="_ObZPwY82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbR60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbSK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbSa0NEee6S77dw3LIvQ" key="uuid" value="_ObZPwI82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbSq0NEee6S77dw3LIvQ" name="ControlFlow14" target="_aVNbfa0NEee6S77dw3LIvQ" source="_aVNbd60NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbS60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbTK0NEee6S77dw3LIvQ" key="uuid" value="_Pt0g8I82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbTa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbTq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbT60NEee6S77dw3LIvQ" key="uuid" value="_PtzS0I82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbUK0NEee6S77dw3LIvQ" name="ControlFlow15" target="_aVNbhq0NEee6S77dw3LIvQ" source="_aVNbdK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbUa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbUq0NEee6S77dw3LIvQ" key="uuid" value="_Qu_DAY82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbU60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbVK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbVa0NEee6S77dw3LIvQ" key="uuid" value="_Qu_DAI82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbVq0NEee6S77dw3LIvQ" name="ControlFlow16" target="_aVNbgK0NEee6S77dw3LIvQ" source="_aVNbfa0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbV60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbWK0NEee6S77dw3LIvQ" key="uuid" value="_RhzAAI82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbWa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbWq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbW60NEee6S77dw3LIvQ" key="uuid" value="_RhyY8I82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbXK0NEee6S77dw3LIvQ" name="ControlFlow17" target="_aVNbg60NEee6S77dw3LIvQ" source="_aVNbeq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbXa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbXq0NEee6S77dw3LIvQ" key="uuid" value="_7aHhwI82EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbX60NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbYK0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbYa0NEee6S77dw3LIvQ" key="uuid" value="_7aG6sI82EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_aVNbYq0NEee6S77dw3LIvQ" name="ControlFlow18" target="_aVNbmK0NEee6S77dw3LIvQ" source="_aVNbgK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbY60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbZK0NEee6S77dw3LIvQ" key="uuid" value="_DR8kMI84EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_aVNbZa0NEee6S77dw3LIvQ" value="true">
+        <eAnnotations xmi:id="_aVNbZq0NEee6S77dw3LIvQ" source="genmymodel">
+          <details xmi:id="_aVNbZ60NEee6S77dw3LIvQ" key="uuid" value="_DR79II84EDWKaO1uZb48Tg"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <ownedNode xsi:type="uml:InitialNode" xmi:id="_aVNbaK0NEee6S77dw3LIvQ" name="InitialNode" outgoing="_aVNbJq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbaa0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbaq0NEee6S77dw3LIvQ" key="uuid" value="_LGi8MY8oEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNba60NEee6S77dw3LIvQ" name="Click On Start" incoming="_aVNbJq0NEee6S77dw3LIvQ" outgoing="_aVNbLK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbbK0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbba0NEee6S77dw3LIvQ" key="uuid" value="_iMvbsI8oEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbbq0NEee6S77dw3LIvQ" name="Level Starts" incoming="_aVNbFK0NEee6S77dw3LIvQ _aVNbLK0NEee6S77dw3LIvQ" outgoing="_aVNa_K0NEee6S77dw3LIvQ _aVNbMq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbb60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbcK0NEee6S77dw3LIvQ" key="uuid" value="_oPF_sI8oEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbca0NEee6S77dw3LIvQ" name="Click Escape" incoming="_aVNbMq0NEee6S77dw3LIvQ" outgoing="_aVNbOK0NEee6S77dw3LIvQ _aVNbRK0NEee6S77dw3LIvQ _aVNbPq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbcq0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbc60NEee6S77dw3LIvQ" key="uuid" value="_suuMsI8oEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbdK0NEee6S77dw3LIvQ" name="Resume" incoming="_aVNbOK0NEee6S77dw3LIvQ" outgoing="_aVNbUK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbda0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbdq0NEee6S77dw3LIvQ" key="uuid" value="_zA8YsI8oEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbd60NEee6S77dw3LIvQ" name="Change Control" incoming="_aVNbPq0NEee6S77dw3LIvQ" outgoing="_aVNbSq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbeK0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbea0NEee6S77dw3LIvQ" key="uuid" value="_1p70MI8oEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbeq0NEee6S77dw3LIvQ" name="Click to Exit" incoming="_aVNbRK0NEee6S77dw3LIvQ" outgoing="_aVNbXK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbe60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbfK0NEee6S77dw3LIvQ" key="uuid" value="_4se_MI8oEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbfa0NEee6S77dw3LIvQ" name="Set Key Binding" incoming="_aVNbSq0NEee6S77dw3LIvQ" outgoing="_aVNbVq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbfq0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbf60NEee6S77dw3LIvQ" key="uuid" value="_DX2VsI8pEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbgK0NEee6S77dw3LIvQ" name="Key Changed" incoming="_aVNbVq0NEee6S77dw3LIvQ" outgoing="_aVNbYq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbga0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbgq0NEee6S77dw3LIvQ" key="uuid" value="_IrgnsI8pEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbg60NEee6S77dw3LIvQ" name="Game Exited" incoming="_aVNbXK0NEee6S77dw3LIvQ" outgoing="_aVNbIK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbhK0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbha0NEee6S77dw3LIvQ" key="uuid" value="_NjseoI8pEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbhq0NEee6S77dw3LIvQ" name="Game Resumed" incoming="_aVNbUK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbh60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbiK0NEee6S77dw3LIvQ" key="uuid" value="_QdxqII8pEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:ActivityFinalNode" xmi:id="_aVNbia0NEee6S77dw3LIvQ" name="ActivityFinalNode" incoming="_aVNbGq0NEee6S77dw3LIvQ _aVNbIK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbiq0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbi60NEee6S77dw3LIvQ" key="uuid" value="_xktj4I8rEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:DecisionNode" xmi:id="_aVNbjK0NEee6S77dw3LIvQ" name="DecisionNode" incoming="_aVNa_K0NEee6S77dw3LIvQ" outgoing="_aVNbCK0NEee6S77dw3LIvQ _aVNbAq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbja0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbjq0NEee6S77dw3LIvQ" key="uuid" value="_uMkG4I8sEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbj60NEee6S77dw3LIvQ" name="Restart Level" incoming="_aVNbCK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbkK0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbka0NEee6S77dw3LIvQ" key="uuid" value="_O6Yn8I8tEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbkq0NEee6S77dw3LIvQ" name="Load Next Level" incoming="_aVNbAq0NEee6S77dw3LIvQ" outgoing="_aVNbDq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbk60NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNblK0NEee6S77dw3LIvQ" key="uuid" value="_i7hbAI8tEDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:DecisionNode" xmi:id="_aVNbla0NEee6S77dw3LIvQ" name="DecisionNode2" incoming="_aVNbDq0NEee6S77dw3LIvQ" outgoing="_aVNbGq0NEee6S77dw3LIvQ _aVNbFK0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNblq0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbl60NEee6S77dw3LIvQ" key="uuid" value="_4ZZ0sI80EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_aVNbmK0NEee6S77dw3LIvQ" name="Back" incoming="_aVNbYq0NEee6S77dw3LIvQ">
+      <eAnnotations xmi:id="_aVNbma0NEee6S77dw3LIvQ" source="genmymodel">
+        <details xmi:id="_aVNbmq0NEee6S77dw3LIvQ" key="uuid" value="_B7d5cI84EDWKaO1uZb48Tg"/>
+      </eAnnotations>
+    </ownedNode>
+  </packagedElement>
+</uml:Model>
